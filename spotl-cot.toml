@@ -1,0 +1,13 @@
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E","F","I","UP","B","SIM"]
+exclude = [".venv","build","dist"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = False
+warn_unused_ignores = True
+ignore_missing_imports = True
