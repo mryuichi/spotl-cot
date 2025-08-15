@@ -1,0 +1,10 @@
+fastapi==0.112.2
+uvicorn[standard]==0.30.6
+pydantic==2.8.2
+requests==2.32.3
+requests-cache==1.2.1
+python-dotenv==1.0.1
+# NLP（PoCでは軽量運用。後でspaCy/Stanzaを追加）
+regex==2024.5.15
+#（任意）jsonschemaで厳格検証したい場合
+jsonschema==4.23.0
